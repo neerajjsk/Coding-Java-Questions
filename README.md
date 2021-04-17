@@ -1,6 +1,9 @@
 # Coding-Java-Questions
 This repo will have some of the famous Java programming question's answer (as form of code)
 
+## About Project
+Project mainly focus the development of strong database of JAVA Programming Learning and Training. The idea of this repository is aimed at creating a one-stop shop for all common and most asked questions about Java programming language from learning prespective.
+
 ## About JAVA Language 
 JAVA was developed by Sun Microsystems Inc in the year 1991, later acquired by Oracle Corporation.
 It was developedby James Gosling and Patrik Naughton.
@@ -16,3 +19,46 @@ dependencies as possible. Java applications are compiled to byte code that can r
 `4.` Java Runtime Environment (JRE) : JAVA Development kit includes JRE, to run the java programs after compilation JRE is needed.
 `5.` Garbage Collector : For memory management JVM has a program that take care to recollect the memory that are not referenced. This program is known as Garbage collector.
 `6.` ClassPath : This is a file path where java runtime and java compiler search for .class files and external libraries to load.
+
+## Project Usage
+Project is helpful for the students and professional for JAVA skill development. To learn how to apply the concepts of language effectively.
+
+## How To Use Project
+Install the JDK from the Oracle website.
+ `http://www.oracle.com/technetwork/java/javase/downloads/index.html`
+Identify the installation location of the JDK.
+Edit the System Environment Variables.
+Create a new variable named JAVA_HOME, and set the installation location of the JDK as the value.
+Edit the PATH variable.
+Make sure to click "Okay" on all of the Environment Variables to save the new settings.
+Open up Command Prompt.
+Verify the Java compiler is recognized by executing `javac -version` and hit enter.
+Install GIT source version control from `https://git-scm.com/downloads`
+Download the Repo using GIT command - `git clone https://github.com/neerajjsk/Coding-Java-Questions.git`
+Enter your Github details and Repo is downladed
+Run a Java program.
+    Copy the sample program from our repository and save it to a file: `https://docs.oracle.com/javase/tutorial/getStarted/cupojava/win32.html`
+    In Command Prompt, navigate to where to saved the file.
+    Run javac `program_name.java` (assuming your file is named `program_name.java`) to compile your Java source file into a class file.
+    If you see an error, you likely have a bug in your program or haven't navigated to where your file is located.
+    Run java `program_name` to run your compiled Java program.
+Contribute to Repository
+    Fork the repo from `https://github.com/neerajjsk/Coding-Java-Questions.git` to your github account.
+    `git clone repo_address` the forked repo
+    Take Latest Checkout of Repo using -- `git pull`
+    Apply your change or add a change
+    `git add .` - Add your changes to stage 
+    `git commit` - Commit your change locally
+    `git push` - Psuh your changes to your forked repo
+    Raise the pull request on the Github web interface for `https://github.com/neerajjsk/Coding-Java-Questions.git` master.
+
+## How To Get Help
+User can get help by contacting us via message on our github page - `https://neerajjsk.github.io/Coding-Java-Questions/`
+
+## Maintainers and Top Contributers of the project
+Naveen Kumar Chauhan - Key contributer and Lead Integrator with Experience on Algorithm Development and Programming
+Neeraj Choudhary - Key contributer and Lead Developer with Experience on Software Development and Programming
+Naveen Chakravarthy Balasubramanian - Key contributer and Lead Developer with Experience on Software Development and Programming
+
+## Contact us on GitHub Page 
+`https://neerajjsk.github.io/Coding-Java-Questions/`
