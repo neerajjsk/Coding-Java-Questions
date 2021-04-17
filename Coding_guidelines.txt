@@ -1,0 +1,41 @@
+Coding Guidelines and Best Practices in JAVA -
+---------------------------------------------
+1. Coding Standards for Components: It is recommended to write components name by its purpose. This approach improves the readability and maintainability of code.
+2. Coding Standards for Classes: Usually class name should be noun starting with uppercase letter. If it contains multiple word than every inner word should start with uppercase.
+   Eg: String, StringBuffer, Dog
+3. Coding Standards for Interface: Usually interface name should be adjective starting with uppercase letter. If it contains multiple word than every inner word should start with uppercase.
+   Eg: Runnable, Serializable, Comparable
+4. Coding Standards for Methods: Usually method name should either be verb or verb noun combination starting with lower letter. If it contains multiple word than every inner word should start with uppercase.
+   Eg: print(), sleep(), setSalary()
+5. Coding Standards for Variables: Usually variable name should be noun starting with lowercase letter. If it contains multiple word than every inner word should start with uppercase.
+   Eg: name, age. mobileNumber
+6. Coding Standards for Constants: Usually constant name should be noun. It should contain only uppercase If it contains multiple word than words are separated with ( _ ) underscore symbol. Usually we declare constants with public static and final modifiers.
+7. Java Bean Coding Standards: A Java Bean is a simple java class with private properties and public getter and setter methods
+8. Getter Methods:
+       # It should be public method
+       # Method name should be prefixed with “get”
+       # It should not take any argument
+9. Setter Methods:
+       # It should be public method
+       # Return Type should be void
+       # Method name should be prefixed with “set”
+       # It should take some argument
+10. Coding convention for Listners:
+       #To register a Listner method name should prefixed with add
+         Eg: public void addMyAccountListner( MyActionListner);
+       #To unregister a Listner method name should prefixed with remove
+         Eg: public void removeMyAccountListner( MyActionListner);
+11. It is a good practice to declare a variable close to the point of its possible use. This not only enhances readability of the code but also makes debugging simpler.
+12. Methods either belong to a class or to an interface. Therefore, there is a chance that local variables may be given the same name as a class member variable unintentionally by the programmer. The Java compiler, however, is able to pick the right one from the scope. Also, modern IDEs are sophisticated enough to identify the conflict. In any case, programmers themselves should be responsible enough to avoid such conflicts because the result can be quite disastrous.
+13. A variable once declared can be reused. Therefore, the non-final local variables declared in the method arguments can also be reused with a different value. However, this is not a good idea because the variable sends as a method argument what is supposed to hold the value it has brought, the original value that the method with work upon. If we change the value, we’ll completely lose the original content that is brought forth in the method. Instead, what we must do is copy the value to another variable and do the necessary processing. 
+14. Autoboxing does not always produce the result we want. We should be aware and give a thought if autoboxing would suffice in the present context or not.
+15. One should always use classes, methods, interfaces, enums, and annotations from the library as much as possible. This can reduce production time considerably. Moreover, the features included are well tested. It is better to use a them from the library whenever required rather than reinvent the wheel.
+16. Intermediate string object, created only to perform the needed operation, is a waste and inefficient. This is because intermediary object creation is extraneous; it involves garbage collection, although we can avoid it. There are two companion string classes, called StringBuffer and StringBuilder, which can aptly facilitate the kind of string manipulation we may need. 
+17. The concept of immutability is very important. We must decide whether the classes we intend to design can be made immutable or not, because immutability guarantees that it could be used almost everywhere without any trouble from concurrent modification. Unfortunately, not all classes can be designed as immutable. But, make sure we must do so whenever we can.
+
+
+Remember that guideline are good practices.Apart from above there are many other standards as well.
+
+Sources -
+https://medium.com/android-news/java-coding-standards
+https://www.developer.com/design/top-10-java-coding-guidelines/
